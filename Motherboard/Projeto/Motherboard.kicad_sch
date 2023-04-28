@@ -6547,7 +6547,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 2b8564d8-52be-4f07-a5d6-96bcba4ba0ee)
   )
-  (label "B" (at 377.19 195.58 180)
+  (label "A" (at 377.19 195.58 180)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 2be498d5-e7b2-4098-b853-d60412f65c3b)
   )
@@ -8655,7 +8655,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid c2dd13db-24b6-40f1-b75b-b9ab893d92ea)
   )
-  (label "A" (at 377.19 193.04 180)
+  (label "B" (at 377.19 193.04 180)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid c2f8c49f-d49f-49e2-940a-a7b9765ffdf0)
   )
@@ -12827,32 +12827,26 @@
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a690661"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c007"
-      (reference "#PWR043") (unit 1) (value "+24V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c4a8"
-      (reference "#PWR044") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR044") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c64d"
-      (reference "#PWR045") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR045") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c70f"
-      (reference "#PWR046") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR046") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c8a2"
-      (reference "#PWR047") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR047") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69c946"
-      (reference "#PWR048") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR048") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69ca6c"
-      (reference "#PWR049") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR049") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a69ca82"
-      (reference "#PWR050") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a70c8a9"
-      (reference "#PWR059") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR050") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a70ca67"
       (reference "#PWR060") (unit 1) (value "+5V") (footprint "")
@@ -12876,7 +12870,7 @@
       (reference "#PWR066") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a8f09b2"
-      (reference "#PWR067") (unit 1) (value "+24V") (footprint "")
+      (reference "#PWR067") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005a8f0b5e"
       (reference "#PWR068") (unit 1) (value "+5V") (footprint "")
@@ -12917,7 +12911,13 @@
     (path "/00000000-0000-0000-0000-0000576ab30b/1db17df1-7102-4f3e-8d1c-1cfef03d3b29"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000576ab30b/4e4c13d8-0a01-49c9-a795-a1d30ff9efd2"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000576ab30b/5493e8cd-8323-4518-b41a-1736b1fae7d0"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000576ab30b/577ae91e-cb35-46de-86b5-34d1ef80360a"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/9292d21d-a1c5-4919-b2ca-d60a18782af4"
@@ -13194,18 +13194,18 @@
       (reference "P16") (unit 1) (value "CONN_02X08") (footprint "mods:2x8_pin_10in")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-000060d5e3d8"
-      (reference "P17") (unit 1) (value "SCREW_TERM_24V") (footprint "mods:OSTYK51102030")
+      (reference "P17") (unit 1) (value "SCREW_TERM_12V") (footprint "mods:OSTYK51102030")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-000060db0b8b"
       (reference "P18") (unit 1) (value "SCREW_TERM_5V") (footprint "mods:OSTYK51102030")
     )
-    (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005afb16b1"
+    (path "/00000000-0000-0000-0000-0000576ab30b/7f9cd99b-e372-41ec-91dd-ea62e68d3908"
       (reference "P38") (unit 1) (value "Jumper_Receptacle") (footprint "mods:Pin_Header_Straight_1x01_Pitch5.08mm")
     )
-    (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005afb1e00"
+    (path "/00000000-0000-0000-0000-0000576ab30b/548b04a1-d840-46eb-8046-ea6d5b847536"
       (reference "P39") (unit 1) (value "Jumper_Receptacle") (footprint "mods:Pin_Header_Straight_1x01_Pitch5.08mm")
     )
-    (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005afb1e95"
+    (path "/00000000-0000-0000-0000-0000576ab30b/eb530003-727b-4ecc-8b8f-441a3d94f9e6"
       (reference "P40") (unit 1) (value "Jumper_Receptacle") (footprint "mods:Pin_Header_Straight_1x01_Pitch5.08mm")
     )
     (path "/00000000-0000-0000-0000-0000576ab30b/00000000-0000-0000-0000-00005afb2058"
